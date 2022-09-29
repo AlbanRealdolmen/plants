@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 
+<html xmlns:th="http://www.thymeleaf.org" xmlns:welcome="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}">
 <head>
     <title>Plants | Home </title>
 </head>
@@ -14,7 +17,7 @@
             <a class="active" href="/">Home</a>
         </div>
     </div>
-    <!--<table class="table" id="templatesList">
+    <table class="table" id="templatesList">
         <thead>
         <tr>
             <th>Plant Name</th>
@@ -29,7 +32,7 @@
             <td th:text="${plant.description}"></td>
         </tr>
         </tbody>
-    </table>-->
+    </table>
 
 
 </main>
