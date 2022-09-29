@@ -14,7 +14,7 @@ public class PlantController {
 
     @GetMapping("/")
     public String getAllPlants (Model model){
-      //  model.addAttribute("plants",plantServices.getAllPlants());
+         model.addAttribute("plants",plantServices.getAllPlants());
         return "index";
     }
 }
