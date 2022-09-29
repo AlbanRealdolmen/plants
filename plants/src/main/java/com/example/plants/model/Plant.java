@@ -18,7 +18,7 @@ public class Plant {
     @Column
     private double price;
 
-    @Column
+    @Column(name = "LATINNAME")
     private String latinName;
 
     public Long getId() {
