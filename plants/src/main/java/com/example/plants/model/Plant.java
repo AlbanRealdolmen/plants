@@ -18,6 +18,9 @@ public class Plant {
     @Column
     private double price;
 
+    @Column
+    private String latinName;
+
     public Long getId() {
         return id;
     }
